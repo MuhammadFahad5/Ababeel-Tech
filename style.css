@@ -1,0 +1,109 @@
+
+#topheader a{
+
+    color:#303952;
+    font-weight: 600;
+    font-size: 1.05rem;
+
+}
+
+#topheader {
+    border-bottom: 2px solid black;
+    background-color: #DFE5FF;
+}
+#bottom-header{
+	background-color: #3742fa
+}
+#bottom-header .container-fluid{
+	max-width: 1440px;
+
+}
+
+nav ul li a{
+	font-size: 1.3rem;
+	font-weight: 600;
+}
+
+/*Footer styling start*/
+.FullFooter{
+    background-color: #130f40;
+    
+}
+
+.topfooter p{
+color:white;
+}
+.topfooter a{
+	color: white;
+	font-weight: 600;
+
+}
+
+.bottomfooter{
+	background-color: black;
+}
+
+/*Footer styling end*/
+
+
+/*section styling start - Home*/
+
+.section1{
+	background-color: #00a8ff;
+	color:white;
+}
+
+.q-image{
+    width: 200px;
+}
+
+
+.q2-image{
+	width:200px;
+}
+
+/* .sec5home{
+	border-radius: 15px 0 0 15px;
+}
+.sec5btn{
+	border-radius: 0px 15px 15px 0px;
+} */
+
+/*section styling end - Home*/
+
+
+/*section styling start- Portfolio*/
+
+
+.breadcrumb {
+	background-color: transparent;
+	padding: 0;
+}
+
+.form1{
+	border:inset 2px;
+}
+
+
+/*Start of web design page*/
+.bar{
+	color:white;
+	font-weight:600;
+	border-radius: 10px;
+	border:2px solid #778ca3;
+	font-size: .75rem;
+}
+
+
+
+@media (min-width: 576px) {
+    .bar { font-size: 1.1rem; }
+}
+@media (min-width: 768px) {
+    .bar  { font-size: 1.2rem; }
+}
+
+@media (min-width: 576px)
+{
+	.bar{border-radius: 15px;}
+}
